@@ -1,0 +1,13 @@
+
+@mixin media-sm-down {
+    @media (max-width: 600px) { @content; }
+}
+@mixin media-md-down {
+    @media (max-width: 900px) { @content; }
+}
+@mixin media-lg-down {
+    @media (max-width: 1200px) { @content; }
+}
+@mixin media-xl-down {
+    @media (max-width: 1800px) { @content; }
+}

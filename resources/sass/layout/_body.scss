@@ -1,0 +1,9 @@
+.container {
+    @include media-lg-down{
+        max-width: none;
+    }
+}
+
+.bg-grey {
+    background: $grey;
+}

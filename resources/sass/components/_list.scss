@@ -1,0 +1,19 @@
+.list-group {
+    .list-group-item {
+        border: 0;
+        background: none;
+    }
+}
+
+.accordion-button {
+    color: black!important;
+    background: none!important;
+    box-shadow: none!important;
+    padding: 1rem 1rem 0.2rem;
+}
+
+.inline-list {
+    li {
+        display:inline-block;
+    }
+}

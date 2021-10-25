@@ -1,0 +1,41 @@
+.job-card {
+    height: 340px;
+    display: flex;
+    flex-flow: column;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+    .brand-icon {
+        position: relative;
+        border-radius: 5px;
+        background: purple;
+        height: 60px;
+        width: 60px;
+        &::before {
+            content: "\f13d";
+            font-family: $fontawesome;
+            font-weight: 900;
+            font-size: 20px;
+            color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            @include translate(-50%, -50%)
+        }
+    }
+
+    .preview-text {
+        flex: 2;
+        overflow: hidden;
+    }
+
+    .filter-tag {
+        background: rgb(174, 213, 224, 0.5);
+        color:$primary;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 4px;
+    }
+
+}
